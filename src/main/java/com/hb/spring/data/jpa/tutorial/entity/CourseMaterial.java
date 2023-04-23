@@ -40,5 +40,9 @@ public class CourseMaterial
     // With FetchType.LAZY and @ToString(exclude = "course") at the entity Class level, it will fetch the details of the Parent only i.e. CourseMaterial
 
     // With FetchType.EAGER, it will fetch the details of the Child along with the Parent i.e. both Course and CourseMaterial details
+    
+    // Here, extra column 'course_id' will be created in the parent table i.e. in the CourseMaterial table
+}
+
 
 }
